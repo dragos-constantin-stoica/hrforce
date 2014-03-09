@@ -1,0 +1,79 @@
+/*!
+ * HRForce 
+ * Base-CSS stylesheet
+ */
+ 
+body {
+	font: normal 0.82em Verdana, "Helvetica", sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	overflow: hidden;
+	height: 100%;
+}
+
+p {
+	margin:5px;
+}
+
+
+/* login */
+#hrforce-login-logo {
+	height: 90px;
+	background: url(../images/hrforce_logo.png) no-repeat center center;
+}
+
+/* loading indicator */
+
+#loading-mask {
+  position: absolute;
+  left:     0;
+  top:      0;
+  width:    100%;
+  height:   100%;
+  z-index:  20000;
+  background-color: white;
+}
+
+#loading {
+  position: absolute;
+  left:     50%;
+  top:      50%;
+  padding:  2px;
+  z-index:  20001;
+  height:   auto;
+  margin:   -35px 0 0 -100px;
+}
+
+#loading .loading-indicator {
+  background: url(../images/loading-indicator.gif) no-repeat;
+  padding-left: 30px;  
+  height: auto;
+  
+  font-size: 1.5em;
+  text-align: center;
+  color: #999;
+}
+
+
+/* ext default widgets */
+.x-status-text, .x-status-busy {	
+	padding-left: 20px !important;
+	background: url(../images/fugue-icons/tick-circle-frame.png) no-repeat left center;
+}
+
+.x-status-busy {
+	background-image: url(../images/loading-indicator.gif);
+}
+
+.dd-arrow-down {
+	background-image: url(/* your down arrow image */);
+	display: block;
+	visibility: visible;
+	z-index: 20000;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 0;
+	left: 0;
+}

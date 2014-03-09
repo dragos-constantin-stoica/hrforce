@@ -1,0 +1,12 @@
+
+HR Force - version 0.1 - 15.02.2010
+
+1. Unzip the content of this archive to www folder where your application will be hosted
+2. Give write access to folder /config
+3. On your mySQL server: create a database and create a user with ALL rights on that database
+4. Point your browser to location http://<your_server>/<HR_Force_folder>/setup/install.html
+5. Complete all fields: mySQL server host, mySQL user name, mySQL user password, mySQL database, HR Force Admin name and HR Force Admin password
+6. If step 5 completes successfully then you are redirected to login page where you can login as HR Force Admin
+7. and let the FORCE be with you!!!
+
+EOF
